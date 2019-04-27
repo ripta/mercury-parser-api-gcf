@@ -1,0 +1,34 @@
+{
+  "name": "mercury-parser-api",
+  "version": "0.0.1",
+  "author": "Ripta Pasay",
+  "description": "The serverless Mercury Parser API",
+  "main": "./index.js",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "@postlight/mercury-parser": "^2.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "7.3.3",
+    "@babel/preset-env": "7.3.1",
+    "@types/jest": "^24.0.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.1.0",
+    "babel-loader": "^8.0.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^5.4.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-import-resolver-typescript": "^1.1.1",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.0",
+    "husky": "^1.0.0",
+    "jest": "^24.1.0",
+    "lint-staged": "^8.0.0",
+    "nodemon": "^1.18.9",
+    "prettier": "^1.14.2"
+  }
+}
