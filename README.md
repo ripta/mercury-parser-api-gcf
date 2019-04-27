@@ -23,4 +23,6 @@ where `TheKey` may be any string that will be your API key. The API key would
 need to be passed in as the `X-Api-Key` HTTP header in all requests against the
 function.
 
-3. Run `make deploy`.
+3. Run `npm install` to download dependencies.
+
+4. Run `make deploy`.
